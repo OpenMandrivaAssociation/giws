@@ -1,12 +1,12 @@
 Summary:	Generate C++ class wrappers to call Java methods/objects
 Name:		giws
 Version:	1.0.5
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	CeCILL
 Group:		Development/Python
 Url:		http://www.scilab.org/giws/
 Source0:	http://www.scilab.org/giws/download/%{name}-%{version}.tar.gz
-%py_requires -d
+BuildRequires:	python-devel
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -33,6 +33,8 @@ python setup.py install --root=%{buildroot} --record=INSTALLED_FILES
 %clean
 rm -rf %{buildroot}
 
-%files -f INSTALLED_FILES
+%files
 %defattr(-,root,root)
 %doc AUTHORS BUGS README LICENSE CHANGELOG
+%{_bindir}/*
+%py_puresitedir/*
