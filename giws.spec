@@ -38,3 +38,38 @@ rm -rf %{buildroot}
 %doc AUTHORS BUGS README LICENSE CHANGELOG
 %{_bindir}/*
 %py_puresitedir/*
+
+
+%changelog
+* Fri Jan 21 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.2.0-1mdv2011.0
++ Revision: 632073
+- Update to giws 1.2.0
+
+* Sun Oct 31 2010 Funda Wang <fwang@mandriva.org> 1.0.5-3mdv2011.0
++ Revision: 590803
+- rebuild for py 2.7
+
+  + Michael Scherer <misc@mandriva.org>
+    - rebuild for python 2.7
+
+* Wed Nov 11 2009 Tomasz Pawel Gajc <tpg@mandriva.org> 1.0.5-1mdv2010.1
++ Revision: 464836
+- update to new version 1.0.5
+
+* Sat Aug 29 2009 Frederik Himpe <fhimpe@mandriva.org> 1.0.3-1mdv2010.0
++ Revision: 422298
+- update to new version 1.0.3
+
+* Sat May 09 2009 Tomasz Pawel Gajc <tpg@mandriva.org> 1.0.2-1mdv2010.0
++ Revision: 373875
+- update to new version 1.0.2
+
+* Sun Dec 28 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 1.0.1-2mdv2009.1
++ Revision: 320117
+- rebuild for python-2.6
+
+* Fri Nov 21 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 1.0.1-1mdv2009.1
++ Revision: 305596
+- add source and spec files
+- Created package structure for giws.
+
