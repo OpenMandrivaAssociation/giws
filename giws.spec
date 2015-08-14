@@ -1,7 +1,7 @@
 Summary:	Generate C++ class wrappers to call Java methods/objects
 Name:		giws
-Version:	1.2.0
-Release:	2
+Version:	2.0.2
+Release:	1
 License:	CeCILL
 Group:		Development/Python
 Url:		http://www.scilab.org/giws/

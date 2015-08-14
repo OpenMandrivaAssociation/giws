@@ -1,2 +1,4 @@
+removed_sources:
+  giws-1.2.0.tar.gz: 12fa92a697c89c733df31d3c94c42f8af2f0b2e5
 sources:
-  "giws-1.2.0.tar.gz": 12fa92a697c89c733df31d3c94c42f8af2f0b2e5
+  giws-2.0.2.tar.gz: a0d1cbf5fd6edcb096760b381d74948cc6169f34
