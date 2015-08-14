@@ -1,7 +1,7 @@
 Summary:	Generate C++ class wrappers to call Java methods/objects
 Name:		giws
 Version:	2.0.2
-Release:	2
+Release:	3
 License:	CeCILL
 Group:		Development/Python
 Url:		http://www.scilab.org/giws/
@@ -9,6 +9,7 @@ Source0:	http://www.scilab.org/giws/download/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(python2)
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+Requires:	python2-libxml2
 
 %description
 Giws is basically doing the same stuff as SWIG but the opposite.
