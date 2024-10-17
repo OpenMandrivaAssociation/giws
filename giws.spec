@@ -4,7 +4,7 @@ Version:	2.0.2
 Release:	3
 License:	CeCILL
 Group:		Development/Python
-Url:		http://www.scilab.org/giws/
+Url:		https://www.scilab.org/giws/
 Source0:	http://www.scilab.org/giws/download/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(python2)
 BuildArch:	noarch
